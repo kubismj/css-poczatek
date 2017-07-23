@@ -1,2 +1,39 @@
-body {background: red;
+body {
+    background-color: white;
 }
+
+/* selektor znacznika */
+p {color: orange}
+
+/* selektor id */
+#paragraf {color: violet}
+
+/*selektor klasy*/
+.klasa-paragrafu {color: green
+}
+
+/*łączenie selektorów*/
+a, span, div {color: blue}
+
+/*selektor bezpośredniego elementu potomnego*/
+li > a {color: aqua}
+
+/*selektor elementu potomnego*/
+div a{color: black}
+
+/*selektor bliskiego rodzeństwa*/
+h2 + h3 {color: brown;}
+
+/*selektor rodzeństwa*/
+h4 ~ p {color: yellow;
+        background-color: grey;}
+
+/*selektor wykluczający*/
+#lista-agnieszki > li:not(.wykluczony){color: pink;}
+
+/*selektor kolejnego elementu*/
+ul#lista-karoliny > ol {background-color: aquamarine;
+						color: darkblue;
+						border-bottom: 1px solid black;
+}
+ul#lista-karoliny > ol:nth-child(3){color: red}

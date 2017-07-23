@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <title>Document</title>
     
-    <link rel="stylesheet" href="css/style.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--selektor znacznika-->
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto a eaque rerum illo cumque vitae beatae saepe commodi aspernatur dolor.
+    </p>
     
+    <!--selektor id-->
+    <p id="paragraf">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, tempore.
+    </p>
+
+    <!--selektor klasy-->
+    <p class="klasa-paragrafu">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ullam sequi iusto facilis quo adipisci!
+    </p>
+    
+    <!--łączenie selektorów-->
+      <a href="link"></a>
+       <span>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, eius.
+       </span>
+       <div>
+           Lorem ipsum dolor sit amet.
+       </div>
+    
+    <!--selektor bezpośredniego elementu potomnego-->
+   <ul>
+       <li><a href="">link 1</a></li>
+       <li><a href="">link 2</a></li>
+       <li><a href="">link 3</a></li>
+   </ul>
+   
+    <!--selektor elementów potomnych-->
+   <div>
+       <ul>
+           <li><a href="">link 1</a></li>
+           <li><a href="">link 2</a></li>
+           <li><a href="">link 3</a></li>
+       </ul>
+   </div>
+   
+    <!--selektor bliskiego rodzeńsktwa-->
+    <header>
+        <h2>lorem ipsum</h2>
+        <h3>lorem 1</h3>
+        <h3>lorem 2</h3>
+    </header>
+    
+    <!--selektor rodzeństwa-->
+    <header>
+        <h4>lorem ipsum</h4>
+        <p>paragraf 1</p>
+        <p>paragraf 2</p>
+        <p>paragraf 3</p>
+        <p>paragraf 4</p>
+    </header>
+    
+    <!--selektor wykluczający-->
+    <ul id ="lista-agnieszki">
+        <li class="list-item">pole listy 1</li>
+        <li class="list-item wykluczony">pole listy 2</li>
+        <li class="list-item">pole listy 3</li>
+        <li class="list-item wykluczony">pole listy 4</li>
+    </ul>
+    
+    <!--selektor kolejnego elementu-->
+    <ul id="lista-karoliny">
+        <ol>element listy 1</ol>
+        <ol>element listy 2</ol>
+        <ol>element listy 3</ol>
+        <ol>element listy 4</ol>
+        <ol>element listy 5</ol>
+        <ol>element listy 6</ol>
+        <ol>element listy 7</ol>
+    </ul>
 </body>
 </html>
